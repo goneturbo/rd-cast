@@ -1,0 +1,14 @@
+name = "rd-cast"
+main = "src/app.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+# account_id = ""
+workers_dev = true
+preview_urls = false
+
+# [[routes]]
+# pattern = "dmmcast.example.dev"
+# custom_domain = true
+
+[build]
+command = "npm run build"
